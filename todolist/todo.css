@@ -1,0 +1,58 @@
+. {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-image: url(image/pexels-photo-5717454.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Dancing Script", "Roboto Condensed", "sans-serif", "Roboto Mono",
+    "monospace";
+}
+
+.high h1 {
+  font-size: 7vw;
+  margin-top: 10vh;
+}
+
+.high input {
+  padding-bottom: 5px;
+}
+.container {
+  background-color: white;
+  min-height: 100vh;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.btn-primary {
+  font-size: 15px;
+}
+
+.task_area {
+  border: 1px solid greenyellow;
+}
+
+.task_taps {
+  display: flex;
+  border-bottom: 1px solid red;
+  position: relative;
+}
+.task_taps div {
+  padding: 1em;
+}
+#under_line {
+  height: 4px;
+  background-color: pink;
+  position: absolute;
+  width: 70px;
+  left: 0px;
+  top: 52px;
+  padding: 0px;
+}
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
